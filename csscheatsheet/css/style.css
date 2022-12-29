@@ -41,6 +41,22 @@ body{
     margin: 20px; 
 }
 
+/*applying global styling to link. It applys to any link onthe page*/
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color: greenyellow;
+}
+
+a:active{
+    color: red;
+}
+a:visited{
+    color: blue;
+}
 
 /* to use the short hand method for setting margin on all side use
     E.G = margin: 5px 10px 5px 10px; meaning top,right,button left
@@ -53,3 +69,58 @@ body{
     margin: auto;
 }
 
+/* styling all the h1 inside of box one div*/
+.box-1 h1{
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.box-2{
+    border: #ccc dotted 3px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.categories {
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    padding-left: 20px;
+    list-style: square;
+    list-style: none;
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: dotted 1px #333;
+    list-style-image: url('../images/checkmark.png');
+}
+
+.my-form{
+    padding: 20px;
+}
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+/* Styling text, input and textarea*/
+.my-form input[type="text"], .my-form textarea {
+    padding: 8px;
+    width: 100%;
+}
