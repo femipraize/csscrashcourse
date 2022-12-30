@@ -79,6 +79,10 @@ a:visited{
     background: red;
     color: #fff;
 }
+
+.clr{
+    clear: both;
+}
 /* styling all the h1 inside of box one div*/
 .box-1 h1{
     font-family: Tahoma;
