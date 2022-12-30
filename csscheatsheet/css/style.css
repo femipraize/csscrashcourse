@@ -55,7 +55,6 @@ a:active{
     color: red;
 }
 a:visited{
-    color: blue;
 }
 
 /* to use the short hand method for setting margin on all side use
@@ -69,6 +68,17 @@ a:visited{
     margin: auto;
 }
 
+.button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button:hover{
+    background: red;
+    color: #fff;
+}
 /* styling all the h1 inside of box one div*/
 .box-1 h1{
     font-family: Tahoma;
@@ -123,4 +133,13 @@ a:visited{
 .my-form input[type="text"], .my-form textarea {
     padding: 8px;
     width: 100%;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    /* Box-sizin helps accomodate the styling in the contaner or div  for the three element in the curent style */
+    box-sizing: border-box;
 }
