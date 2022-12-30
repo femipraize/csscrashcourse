@@ -172,6 +172,9 @@ a:visited{
     /*positioning of the element in the particular div */
     position: relative;
     background-image: url(../images/bgimage.jpg);
+    background-repeat: no-repeat;
+    background-position: 100px 200px;
+    background-position: center top;
 }
 
 .p-box h1{
