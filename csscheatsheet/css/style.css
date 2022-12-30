@@ -194,6 +194,7 @@ a:visited{
     top: 40px;
 }
 
+/*Styling with sudo element*/
 .my-list li:first-child{
     background: red;
 }
@@ -204,4 +205,8 @@ a:visited{
 
 .my-list li:nth-child(5){
     background: gray;
+}
+
+.my-list li:nth-child(even){
+    background: yellow;
 }
