@@ -76,3 +76,16 @@ navbar ul{
     padding: 20px;
     margin-top: 40px;
 }
+
+/* For site responsiveness*/
+@media(max-width:600px){
+    #main{
+        width: 100%;
+        float: none;
+    }
+
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+}
