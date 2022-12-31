@@ -40,7 +40,15 @@ navbar ul{
 }
 
 #showcase{
-    background-image: url();
+    background-image: url(../images/showcase1.jpg);
     background-position: center right;
-    height: 300px;
+    min-height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#showcase h1{
+    color: #fff;
+    line-height: 1.6em;
+    padding-top: 30px;
 }
