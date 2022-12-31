@@ -38,3 +38,9 @@ navbar ul{
     font-size: 18px;
     padding-right: 15px;
 }
+
+#showcase{
+    background-image: url();
+    background-position: center right;
+    height: 300px;
+}
