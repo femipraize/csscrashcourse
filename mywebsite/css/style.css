@@ -42,6 +42,7 @@ navbar ul{
 #showcase{
     background-image: url(../images/showcase1.jpg);
     background-position: center right;
+    /* for text hight to not exeed the container */
     min-height: 300px;
     margin-bottom: 30px;
     text-align: center;
